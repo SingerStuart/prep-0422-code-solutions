@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+
+    body {
+      font-family: sans-serif;
+    }
+    img {
+      width: 100%;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+
+
+    }
+  </style>
+
+</head>
+<body>
+  <h1>The Spiderman Trilogy</h1>
+
+  <!-- Complete the HTML here -->
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="https://i.ebayimg.com/images/g/jskAAOSwUKxYkQOe/s-l300.jpg" alt="Tobey Maguire Spiderman">
+        <h3>Spiderman
+        </h3>
+        <p> Tobey Maguire gets bitten by a spider, gains spidey powers and learns how to fight crime with these powers. He learns that with great power comes great responsibility</p>
+      </div>
+      <div class="column">
+        <img src="https://m.media-amazon.com/images/M/MV5BODEwNjFhOWUtZGYwNy00M2I4LWI5ZDYtNTExNjE2NzFlYTViXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg" alt="Spiderman 2 movie poster">
+        <h3>Spiderman 2</h3>
+        <p>Tobey's back at it again this time against Doc Oc, a mad scientist, and young James Franco who is looking for the love of Mary Jane</p>
+      </div>
+      <div class="column">
+        <img src="https://m.media-amazon.com/images/M/MV5BYTk3MDljOWQtNGI2My00OTEzLTlhYjQtOTQ4ODM2MzUwY2IwXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_FMjpg_UX1000_.jpg" alt="Spiderman 3 movie poster">
+        <h3>Spiderman 3</h3>
+        <p>The last and arguably worst the worst Tobey Maguire spider installment where he becomes emo, physically assualts his girlfriend, and fights Sandman, Venom, and himself.</p>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
