@@ -1,0 +1,10 @@
+const languages = ['html', 'css', 'javascript', 'react', 'node', 'postgres'];
+console.log(languages);
+var firstelement = languages[0];
+console.log(firstelement);
+var thirdelement = languages[2];
+console.log(thirdelement);
+var length = languages.length;
+console.log(length);
+var lastelement = languages[languages.length - 1];
+console.log(lastelement);
